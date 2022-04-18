@@ -1,0 +1,51 @@
+{
+  "kind": "column",
+  "name": "Customized stacked horizontal bar chart - with percentages",
+  "description": "",
+  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+    {
+      "name": "inquire",
+      "displayName": "Inquire data",
+      "type": "string"
+    },
+    {
+      "name": "advocate",
+      "displayName": "Advocate data",
+      "type": "string"
+    },
+    {
+      "name": "task_focused",
+      "displayName": "Task Focused data",
+      "type": "string"
+    },
+    {
+      "name": "socialize",
+      "displayName": "Socialize data",
+      "type": "string"
+    },
+    {
+      "name": "support",
+      "displayName": "Support data",
+      "type": "string"
+    },
+    {
+      "name": "disagree",
+      "displayName": "Disagree data",
+      "type": "string"
+    },
+    {
+      "name": "width",
+      "displayName": "Width (default to 100vw)",
+      "type": "number"
+    },
+    {
+      "name": "height",
+      "displayName": "Height (default to 80vh)",
+      "type": "number"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
